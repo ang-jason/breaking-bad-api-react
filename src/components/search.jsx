@@ -11,9 +11,9 @@ export default function Search({getQuery}) {
 
     return (
         <div>
-            <form class="w-full max-w-sm">
-            <div class="flex items-center border-b border-green-500 py-2">
-                <input class="appearance-none bg-transparent border-none w-full text-green-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Search Characters" aria-label="Full name"
+            <form className="w-full max-w-sm">
+            <div className="flex items-center border-b border-green-500 py-2">
+                <input className="appearance-none bg-transparent border-none w-full text-green-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Search Characters" aria-label="Search Bar"
 
                 value={text}
                 onChange={(e)=> onChange(e.target.value)}

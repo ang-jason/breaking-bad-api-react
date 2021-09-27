@@ -6,7 +6,7 @@ export default function CharacterItem({item}) {
           <div className="p-10">  
             {/* <!--Card 1--> */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-200 h-200 object-cover object-center rounded-lg shadow-md" src={item.img} alt={item.nickname}/>
+            <img className="w-full h-150 object-cover object-top rounded-lg shadow-md" src={item.img} alt={item.nickname}/>
             <div className="px-6 py-4">
                 <div className="flex inline space-x-4 items-center">
                     <div className="font-bold text-xl mb-2">
@@ -33,8 +33,8 @@ export default function CharacterItem({item}) {
                 {/* <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span> */}
-                {item.occupation.map(itemSub => (
-                    <span className="inline-block bg-purple-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{itemSub}</span> 
+                {item.occupation.map((itemSub) => (
+                    <span className="inline-block bg-purple-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2" key={itemSub.index}>{itemSub}</span> 
                 ))}
             </div>
             </div>
