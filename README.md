@@ -1,10 +1,5 @@
 # breaking-bad-api-react
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6c8af2ca-d52c-4c62-9e9f-02d84f480b9c/deploy-status)](https://app.netlify.com/sites/breaking-bad-api-35-56-react/deploys)
-
-Netify: https://breaking-bad-api-35-56-react.netlify.app/
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
